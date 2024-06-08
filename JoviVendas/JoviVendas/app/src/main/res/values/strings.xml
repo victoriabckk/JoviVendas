@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JoviVendas</string>
+    <string name="lista_de_venda">Lista de venda</string>
+    <string name="luvas">Luvas</string>
+    <string name="r_18">R$ 18</string>
+    <string name="title">Luva</string>
+    <string name="description">Descrição:</string>
+</resources>
