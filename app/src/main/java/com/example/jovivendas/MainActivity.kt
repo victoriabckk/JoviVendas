@@ -1,6 +1,5 @@
 package com.example.jovivendas
 
-import android.annotation.SuppressLint
 import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -15,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var adapter : ProductAdapter
     lateinit var recycler : RecyclerView
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

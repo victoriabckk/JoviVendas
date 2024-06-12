@@ -34,7 +34,7 @@ class ProductAdapter(val context: Context, val product: List<Product>) : Recycle
 
         holder.productImage?.setOnClickListener {
             val detailsActivity: Intent = Intent(context, DetailsActivity::class.java).apply {
-                putExtra(Intent.EXTRA_TEXT, product[positon].toString())
+                putExtra("Product", product[positon])
             }
             context.startActivity(detailsActivity)
         }
